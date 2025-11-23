@@ -1,0 +1,21 @@
+Configurar o VSCODE
+Live server
+
+1 - Uma tela de cadastro simples
+    input email
+    input senha
+    botao cadastro
+    aceito os termos de uso com label e checkbox conetados.
+
+2 - Uma tela de noticia
+    titulo
+    subtitulo
+    paragrafo
+
+3 - Uma tela de cadastro
+    nome completo
+    sobrenome
+    email
+    confirmaçao de email
+    botao aceito os termos de uso
+    botao cadastrar

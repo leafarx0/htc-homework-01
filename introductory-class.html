@@ -1,0 +1,50 @@
+<body>
+    <!------ TAGS HTML ------>
+    <!-- h1: para títulos, 1 por página web, menor el n° + importante.-->
+    <h1>Rafael</h1>
+
+    <!--h2: para subtítulos,  varios por página web.-->
+    <h2>Alumno de programación</h2>
+
+    <!--button: para crear botones.
+    br: salto de línea.-->
+    <button>Registrar</button>
+    <br />
+
+    <!--input y textarea: para crear campos de texto.
+    type: define el tipo de campo de texto. (type = "")
+        text: campo de texto simple.
+        password: campo de texto para contraseñas (oculta los caracteres).
+        email: campo de texto para correos electrónicos (valida el formato).
+        placeholder: para escribir en el input.
+        maxlength: límite de caracteres. -->
+    <input />
+    <input type="password" maxlength="8" />
+    <input type="email" placeholder="Escribe tu correo" />
+    <br />
+
+    <!--Es editable por el usuario.-->
+    <textarea></textarea>
+    <textarea placeholder="Escribe tu mensaje"></textarea>
+    <br />
+    
+    <!-- input distinto. 
+    type checkbox: casilla de verificación. -->
+    <input type="checkbox" />
+    <br />
+
+    <!-- span: para agrupar texto en línea (lo que resta).
+    p: para párrafos.
+    b: en negrito.
+    strong: en negrito (más importante que b).
+    label: etiqueta de los tags, para decir de que se trata.-->
+    <label for="password-field">Contraseña</label>
+    <input id="password-field" type="password" maxlength="3" />
+    <p>Este es un párrafo con <b>texto en negrita</b> y <strong>texto en negrita importante</strong>.</p>
+
+    <!-- Usando el label de otra manera.
+    eula: aceito os termos de uso!
+    id: UNICO!!!-->
+    <input id="eula-checkbox" type="checkbox" />
+    <label for="eula-checkbox">Acepto los términos de condiciones</label>
+</body>
